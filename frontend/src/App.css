@@ -1,0 +1,138 @@
+.App {
+  margin-top: 50px;
+}
+
+.form-Container {
+  margin: 0% auto;
+  /* text-align: center; */
+  padding-top: 10px;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px black;
+}
+
+.heading {
+  text-align: center;
+}
+
+.btn_container {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.btn_container > button {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(174, 125, 221);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.label_text {
+  text-align: right;
+}
+
+.form_Input_Container {
+  text-align: center;
+}
+
+.form-Input {
+  width: 70%;
+  height: 40px;
+  outline: none;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.form-Input_skills {
+  width: 50%;
+  height: 40px;
+  outline: none;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+.skillsCategory {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skills {
+  background-color: blueviolet;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.multi_Select {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.deleteBtn {
+  background-color: red;
+  padding: 5px;
+}
+
+.progressBar_Container {
+  margin: 0% auto;
+  width: 70%;
+  height: 17px;
+  border-radius: 3px;
+  /* border: 1px solid gray; */
+  background-color: blueviolet;
+}
+
+.progress_width {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+/* loader */
+.loader_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #3498db;
+  width: 15px;
+  height: 15px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.cards {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
